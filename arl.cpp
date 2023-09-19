@@ -15,7 +15,7 @@ cout << "\\\\~=~=~=~=~=~=~=~=~=~=~=//\n";
 cout << "For use with Measure RMS & Loudness Normalization\n\n";
 redo_strength:
 cout << "Peak Height Increase/Decrease: Enter a level (1–100).\n";
-cout << "50 is probably what you'd want. A decimal point is allowed.\n>> ";
+cout << "25-50% is probably what you'd want. A decimal point is allowed.\n>> ";
 cin >> rate;
 if(!cin)
 {
