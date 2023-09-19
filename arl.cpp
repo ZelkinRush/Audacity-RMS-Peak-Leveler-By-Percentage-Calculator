@@ -31,7 +31,7 @@ goto redo_strength;
 cout << "\n";
 redo_rms:
 cout << "Paste or type your dB level from Measure RMS and hit Enter.\n"; 
-cout << "(Stereo dB level is recommended if available.)\n >>";
+cout << "(Stereo dB level is recommended if available.)\n>> ";
 cin >> rms;
 if(!cin)
 {
