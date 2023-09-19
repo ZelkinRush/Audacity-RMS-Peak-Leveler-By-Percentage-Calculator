@@ -24,7 +24,7 @@ cin.ignore(numeric_limits<streamsize>::max(), '\n');
 cout << "\n";
 goto redo_strength;
 }
-if (rate < 0 || rate > 100)
+if (rate < 1 || rate > 100)
 {
 goto redo_strength;
 }
