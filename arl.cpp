@@ -44,7 +44,7 @@ a = rms + 50 / 100 * rms;
 b = a - rms * 50 / 100;
 rms = b * 50 / 100 + rate / 8;
 round(rms);
-rms = rms - 12;
+rms = rms - 11;
 cout << "\nCopy the value below into the Loudness Normalization (RMS) Effect\n";
 cout << "to increase/decrease the peak to the target dB.\n" << rms << "\n\n";
 cout << "IF THE AUDIO IS IN STEREO, DO NOT NORMALIZE STEREO CHANNELS INDEPENDENTLY.\n\n";
