@@ -1,5 +1,2 @@
 # Audacity-RMS-Peak-Leveler-Calculator
-Simple Calculator that lets you pick peak compression level. Let's you enter a dB level
-you get from Measure RMS result. Does the appropriate calculation. And returns what
-dB level you're supposed to use in Loudness Normalization. I wrote this for myself, but then
-I wanted to share the source. Simple beginner type stuff.
+This is a cool automated calculator that allows you to enter peak height levels from 1% to 100%. You can also add decimal points. You will then have to enter the dB level obtained from the Measure RMS result. Then it performs the necessary calculations. It also returns the dB level that should be used in loudness normalization. I originally wrote this for myself, but I decided to share the source. Simple beginner material. Audacity 3.3.3 for Linux was used for testing.
